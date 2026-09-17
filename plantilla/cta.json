@@ -1,0 +1,16 @@
+{
+  "href": {
+    "es": "/es/contact-us#contact-form",
+    "en": "/en/contact-us#contact-form"
+  },
+  "es": {
+    "title": "¿Pregunta concreta que el artículo deja abierta?",
+    "description": "Qué hacemos nosotros con ese problema. Una o dos frases. Nada genérico.",
+    "label": "Verbo + objeto. Ej. Revisemos vuestra arquitectura"
+  },
+  "en": {
+    "title": "Concrete question the article leaves open?",
+    "description": "What we do with that problem. One or two sentences. Nothing generic.",
+    "label": "Verb + object. E.g. Let's review your architecture"
+  }
+}

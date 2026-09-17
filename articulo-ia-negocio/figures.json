@@ -1,0 +1,20 @@
+{
+  "rag-fuentes-respuesta.webp": {
+    "file": "images/rag-fuentes-respuesta.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes",
+      "en": "A query selects relevant documentation and produces an answer tied to its sources"
+    }
+  },
+  "consulta-a-tarea.webp": {
+    "file": "images/consulta-a-tarea.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Una consulta pasa por aclaración y organización antes de la aprobación humana",
+      "en": "An enquiry is clarified and organised before human approval"
+    }
+  }
+}

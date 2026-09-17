@@ -1,0 +1,40 @@
+{
+  "id": "modern-architecture-patterns",
+  "status": "ready",
+  "publishedAt": "2026-03-01",
+  "readingMinutes": 28,
+  "tags": ["software_engineering"],
+  "slugs": {
+    "es": "arquitecturas-modernas-hexagonal-cqrs-ddd",
+    "en": "modern-architecture-patterns"
+  },
+  "title": {
+    "es": "Arquitecturas modernas: Hexagonal, DDD, CQRS e híbrido",
+    "en": "Modern architectures: Hexagonal, DDD, CQRS and hybrid"
+  },
+  "excerpt": {
+    "es": "Guía práctica para entender cuándo usar cada patrón, cómo combinarlos y qué problemas resuelven en sistemas reales.",
+    "en": "A practical guide to when to use each pattern, how to combine them and what problems they solve in real systems."
+  },
+  "dek": {
+    "es": "Del CRUD simple al sistema evolutivo: puertos, aggregates, commands y queries explicados con diagramas y APIs de ejemplo.",
+    "en": "From simple CRUD to evolvable systems: ports, aggregates, commands and queries explained with diagrams and sample APIs."
+  },
+  "author": {
+    "name": "Virtual Cave",
+    "role": {
+      "es": "Equipo de Ingeniería de Software",
+      "en": "Software Engineering Team"
+    },
+    "image": "/logo/vc-logo-white.svg"
+  },
+  "cover": {
+    "file": "cover/cover-editorial.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Arquitectura modular iluminada dentro de una caverna tecnológica",
+      "en": "Illuminated modular architecture inside a technological cavern"
+    }
+  }
+}

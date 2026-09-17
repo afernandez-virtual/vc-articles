@@ -1,0 +1,16 @@
+{
+  "href": {
+    "es": "/es/contact-us#contact-form",
+    "en": "/en/contact-us#contact-form"
+  },
+  "es": {
+    "title": "¿La arquitectura está frenando el siguiente paso?",
+    "description": "Revisamos el punto de partida — hexagonal, DDD, CQRS o un híbrido — y definimos cómo evolucionarla sin parar el negocio.",
+    "label": "Revisemos vuestra arquitectura"
+  },
+  "en": {
+    "title": "Is architecture holding back the next step?",
+    "description": "We assess where you are — hexagonal, DDD, CQRS or a hybrid — and define how to evolve it without stopping the business.",
+    "label": "Let's review your architecture"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "asistentes-ia-conocimiento",
+  "status": "ready",
+  "publishedAt": "2026-09-17",
+  "readingMinutes": 5,
+  "tags": ["ia"],
+  "slugs": {
+    "es": "tu-empresa-ya-tiene-las-respuestas-asistentes-ia",
+    "en": "your-company-already-has-the-answers-ai-assistants"
+  },
+  "title": {
+    "es": "Tu empresa ya tiene las respuestas. La IA puede ayudar a encontrarlas",
+    "en": "Your company already has the answers. AI can help find them"
+  },
+  "excerpt": {
+    "es": "Un asistente de IA puede consultar documentación seleccionada para preparar respuestas con contexto. RAG usa conocimiento propio sin reentrenar el modelo cada vez que se añade un documento.",
+    "en": "An AI assistant can query selected documentation to prepare answers with context. RAG uses your own knowledge without retraining the model every time a document is added."
+  },
+  "dek": {
+    "es": "El problema no suele ser la falta de información, sino llegar a ella.",
+    "en": "The problem is rarely missing information. It is reaching it."
+  },
+  "author": {
+    "name": "Virtual Cave",
+    "role": {
+      "es": "Equipo de Ingeniería de Software",
+      "en": "Software Engineering Team"
+    },
+    "image": "/logo/vc-logo-white.svg"
+  },
+  "cover": {
+    "file": "cover/cover-editorial.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Documentos, páginas y notas convergen en una respuesta clara conectada con sus fuentes",
+      "en": "Documents, pages and notes converge into a clear answer connected to its sources"
+    }
+  }
+}

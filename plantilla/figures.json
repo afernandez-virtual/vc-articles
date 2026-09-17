@@ -1,0 +1,11 @@
+{
+  "figura-01.webp": {
+    "file": "images/figura-01.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Descripción de la figura 1",
+      "en": "Figure 1 description"
+    }
+  }
+}

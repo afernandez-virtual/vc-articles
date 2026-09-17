@@ -1,21 +1,4 @@
-# Tu empresa ya tiene las respuestas. La IA puede ayudar a encontrarlas
-
-## Resumen de negocio
-
-Un asistente de IA puede consultar documentación seleccionada de una empresa para preparar respuestas con contexto. Este enfoque, conocido como RAG, usa conocimiento propio sin reentrenar el modelo cada vez que se añade un documento. Sirve para acceder a información útil en la web y dentro del equipo. Para hacerlo bien, hay que cuidar las fuentes, los permisos y la forma de comprobar las respuestas.
-
-## Índice
-
-1. [El problema no siempre es la falta de información](#el-problema-no-siempre-es-la-falta-de-información)
-2. [RAG explicado con una idea sencilla](#rag-explicado-con-una-idea-sencilla)
-3. [Cómo sería un asistente en tu web](#cómo-sería-un-asistente-en-tu-web)
-4. [La confianza se diseña desde el principio](#la-confianza-se-diseña-desde-el-principio)
-5. [Por dónde empezar sin intentar abarcarlo todo](#por-dónde-empezar-sin-intentar-abarcarlo-todo)
-6. [¿Qué pregunta responde tu equipo una y otra vez?](#qué-pregunta-responde-tu-equipo-una-y-otra-vez)
-
-![Documentos, páginas y notas convergen en una respuesta clara conectada con sus fuentes](images/portada-conocimiento-conectado.webp "El conocimiento de la empresa, conectado y disponible")
-
-«Eso está explicado en algún sitio».
+> **Idea de partida:** «Eso está explicado en algún sitio».
 
 Piensa en una ocasión en la que hayas escuchado esa frase. Quizá la respuesta estaba en una página de servicios, un documento compartido o un correo que nadie conseguía localizar.
 
@@ -53,18 +36,7 @@ Por ejemplo, ante una pregunta sobre qué incluye un servicio, podríamos diseñ
 
 El objetivo sería que no improvisase condiciones que la empresa nunca ha definido.
 
-![Una pregunta activa la búsqueda en documentos seleccionados y produce una respuesta respaldada](images/rag-tres-pasos.webp "RAG en tres pasos: preguntar, recuperar y responder")
-
-```mermaid
-flowchart LR
-    A["Pregunta"] --> B["Recuperar información relevante"]
-    S[("Fuentes aprobadas")] --> B
-    B --> C["Construir el contexto"]
-    C --> D["Generar la respuesta"]
-    D --> E{"¿Está respaldada?"}
-    E -- "Sí" --> F["Respuesta con referencias"]
-    E -- "No" --> G["Pedir contexto o derivar"]
-```
+![Una pregunta activa la búsqueda en documentos seleccionados y produce una respuesta respaldada](rag-tres-pasos.webp "RAG en tres pasos: preguntar, recuperar y responder")
 
 Responder con documentación no es lo mismo que responder siempre bien. RAG puede reducir el riesgo de respuestas inventadas, pero no elimina los errores.
 
@@ -110,17 +82,7 @@ La documentación pública y la interna requieren controles de acceso distintos.
 
 Un punto de partida prudente para una versión pública es limitar las fuentes a contenido aprobado para la web.
 
-![Dos espacios de conocimiento separados protegen la información pública y la documentación interna](images/accesos-publico-interno.webp "Accesos distintos para conocimiento público e interno")
-
-```mermaid
-flowchart LR
-    V["Visitante"] --> AP["Asistente público"]
-    AP --> FP[("Fuentes públicas aprobadas")]
-    U["Persona autenticada"] --> AI["Asistente interno"]
-    AI --> FI[("Documentación interna autorizada")]
-    FP -. "Sin acceso" .-> AI
-    FI -. "Sin acceso" .-> AP
-```
+![Dos espacios de conocimiento separados protegen la información pública y la documentación interna](accesos-publico-interno.webp "Accesos distintos para conocimiento público e interno")
 
 ## Por dónde empezar sin intentar abarcarlo todo
 
@@ -134,18 +96,6 @@ Mide si la respuesta es correcta, si se apoya en las fuentes adecuadas y si ayud
 
 No midas el éxito por evitar cualquier contacto humano. En algunas consultas, pasar la conversación al equipo sería el mejor resultado.
 
-Antes de pedirle a la IA que sepa más, merece la pena decidir qué información debería poder encontrar y compartir.
+## Cierre
 
----
-
-<!-- CTA web: presentar como bloque destacado. Enlazar el botón a la URL real de contacto de Virtual Cave. -->
-
-## ¿Qué pregunta responde tu equipo una y otra vez?
-
-Esa duda recurrente puede ser un buen punto de partida para un asistente.
-
-Compártela con **Virtual Cave**, junto con el lugar donde guardáis hoy la respuesta. Diseñamos sistemas RAG y conexiones seguras con fuentes internas para que cada persona encuentre el conocimiento que le corresponde.
-
-**Texto del botón:** Habla con un experto en IA
-
-*Una pregunta concreta basta para empezar.*
+Antes de pedirle a la IA que sepa más, decide qué información debería poder encontrar y compartir. Una familia de preguntas concretas y unas fuentes aprobadas bastan para empezar.

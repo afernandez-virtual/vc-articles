@@ -1,23 +1,6 @@
-# Más allá del chatbot: IA que conecta tu web con el trabajo de cada día
+> **Idea de partida:** elige una tarea concreta antes de preguntar si conviene poner IA en la web.
 
-## Resumen de negocio
-
-En una empresa, la inteligencia artificial encaja mejor si se empieza por una tarea. ¿Qué consulta se repite? ¿Qué información cuesta encontrar? ¿Qué solicitud pasa por demasiadas manos?
-
-La web puede conectarse con esas necesidades: ayudar a quien pregunta, preparar mejor la información y dejar listo el siguiente paso del equipo. Para decidir si merece la pena, mira la calidad del resultado, el tiempo dedicado y el coste de mantenerla.
-
-![Una web conecta mensajes, documentación y tareas en un único flujo de trabajo](./images/portada-web-trabajo.webp "De una consulta web a trabajo útil para el equipo")
-
-## Índice
-
-1. [Una tarea repetida, una oportunidad concreta](#1-una-tarea-repetida-una-oportunidad-concreta)
-2. [Tres conceptos de IA, sin complicaciones](#2-tres-conceptos-de-ia-sin-complicaciones)
-3. [De una visita a una tarea bien encaminada](#3-de-una-visita-a-una-tarea-bien-encaminada)
-4. [Automatizar con criterio](#4-automatizar-con-criterio)
-5. [Empezar por una mejora que se pueda medir](#5-empezar-por-una-mejora-que-se-pueda-medir)
-6. [¿Qué tarea se repite demasiado en tu negocio?](#qué-tarea-se-repite-demasiado-en-tu-negocio)
-
-## 1. Una tarea repetida, una oportunidad concreta
+## Una tarea repetida, una oportunidad concreta
 
 Imagina esta situación: alguien llega a tu web, consulta un servicio y envía una pregunta. Una persona del equipo lee el mensaje, busca información, pide un dato que falta y prepara una respuesta. Después, registra la conversación y avisa a un compañero.
 
@@ -31,7 +14,7 @@ Quizá no haga falta cambiar toda la web. El primer paso puede ser preparar mejo
 
 El punto de partida es elegir una necesidad concreta.
 
-## 2. Tres conceptos de IA, sin complicaciones
+## Tres conceptos de IA, sin complicaciones
 
 ### IA generativa: preparar un primer resultado
 
@@ -39,7 +22,7 @@ La IA generativa puede producir contenido a partir de instrucciones y del contex
 
 Pensemos en una solicitud larga enviada desde la web. Una aplicación posible sería preparar un resumen con lo que la persona necesita, los datos que ha facilitado y las preguntas pendientes.
 
-Para orientar esa tarea se utiliza un **prompt**: la instrucción que recibe el modelo. Especificar el objetivo, el contexto y el formato esperado ayuda a guiar su respuesta. [
+Para orientar esa tarea se utiliza un **prompt**: la instrucción que recibe el modelo. Especificar el objetivo, el contexto y el formato esperado ayuda a guiar su respuesta.
 
 Por ejemplo:
 
@@ -55,21 +38,21 @@ Es parecido a consultar un manual antes de explicar cómo funciona algo.
 
 En una web, un posible uso sería responder a una pregunta sobre el alcance de un servicio basándose en su descripción publicada, con una referencia que permita comprobarla.
 
-Eso no elimina los errores: las fuentes pueden estar desactualizadas, la búsqueda puede recuperar información insuficiente y el modelo todavía puede equivocarse. Por eso conviene prever qué hacer cuando no exista una respuesta respaldada. [4][fuente-rag]
+Eso no elimina los errores: las fuentes pueden estar desactualizadas, la búsqueda puede recuperar información insuficiente y el modelo todavía puede equivocarse. Por eso conviene prever qué hacer cuando no exista una respuesta respaldada.
 
 A veces, la mejor respuesta será pedir una aclaración o dar paso a una persona.
 
-![Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes](./images/rag-fuentes-respuesta.webp "RAG: responder con las fuentes abiertas")
+![Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes](rag-fuentes-respuesta.webp "RAG: responder con las fuentes abiertas")
 
 ### Flujos y agentes: pasar de responder a realizar tareas
 
-Un flujo automatizado sigue un recorrido definido. Un agente de IA puede decidir qué pasos y herramientas utilizar dentro de los límites que se le hayan establecido. No toda automatización necesita un agente ni todas las tareas requieren el mismo grado de autonomía. 
+Un flujo automatizado sigue un recorrido definido. Un agente de IA puede decidir qué pasos y herramientas utilizar dentro de los límites que se le hayan establecido. No toda automatización necesita un agente ni todas las tareas requieren el mismo grado de autonomía.
 
 Por ejemplo, clasificar una solicitud y enviarla a una bandeja concreta podría resolverse con un flujo sencillo. Una tarea que exija consultar varias fuentes y decidir qué información falta podría justificar un diseño más flexible.
 
 Conviene decidir qué se le permite hacer en ese proceso.
 
-## 3. De una visita a una tarea bien encaminada
+## De una visita a una tarea bien encaminada
 
 Unamos las ideas en un ejemplo hipotético, no en un caso de cliente.
 
@@ -87,25 +70,13 @@ Una experiencia diseñada alrededor de esa necesidad podría funcionar así:
 
 **Por último, dar continuidad.** Si existiera la integración correspondiente, podría registrar la solicitud en el sistema de gestión de clientes o preparar una tarea interna. Las acciones sujetas a aprobación quedarían pendientes de revisión.
 
-Ese último paso no ocurriría por el simple hecho de añadir un modelo de IA: habría que conectar las herramientas, configurar los permisos y definir el recorrido. 
+Ese último paso no ocurriría por el simple hecho de añadir un modelo de IA: habría que conectar las herramientas, configurar los permisos y definir el recorrido.
 
 El objetivo sería que la conversación dejase un siguiente paso claro para la persona y para el equipo.
 
-![Una consulta pasa por aclaración y organización antes de la aprobación humana](./images/consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
+![Una consulta pasa por aclaración y organización antes de la aprobación humana](consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
 
-```mermaid
-flowchart LR
-    A["Consulta en la web"] --> B["Aclarar la necesidad"]
-    B --> C["Consultar fuentes autorizadas"]
-    C --> D["Preparar el contexto"]
-    D --> E{"¿Requiere aprobación?"}
-    E -- "Sí" --> F["Revisión humana"]
-    E -- "No" --> G["Siguiente paso permitido"]
-    F --> G
-    G --> H["Respuesta, tarea o registro"]
-```
-
-## 4. Automatizar con criterio
+## Automatizar con criterio
 
 Antes de poner una solución así en marcha, conviene definir qué información puede consultar, qué acciones tiene permitidas y en qué situaciones debe intervenir una persona. También debe quedar claro para el visitante que está interactuando con IA. Son decisiones de diseño. Hay que tomarlas antes del lanzamiento.
 
@@ -115,11 +86,11 @@ Además, prepararíamos una salida sencilla hacia el equipo humano. Una conversa
 
 La IA puede resolver bien una parte y entregar el resto con suficiente contexto.
 
-## 5. Empezar por una mejora que se pueda medir
+## Empezar por una mejora que se pueda medir
 
 Para una primera prueba, elegiríamos una tarea frecuente, acotada y fácil de revisar. Por ejemplo, preparar el resumen de las solicitudes que llegan desde la web antes de incorporarle respuestas al público o acciones adicionales.
 
-La propuesta sería comparar el proceso actual con el nuevo utilizando casos representativos, incluidas peticiones incompletas o ambiguas. La evaluación debería comprobar la calidad de las respuestas y su correspondencia con la información disponible, no solo si están bien redactadas. 
+La propuesta sería comparar el proceso actual con el nuevo utilizando casos representativos, incluidas peticiones incompletas o ambiguas. La evaluación debería comprobar la calidad de las respuestas y su correspondencia con la información disponible, no solo si están bien redactadas.
 
 Desde negocio, estas serían cuatro comprobaciones:
 
@@ -132,18 +103,6 @@ Desde negocio, estas serían cuatro comprobaciones:
 
 Una respuesta rápida que exige rehacer el trabajo no cumpliría el objetivo. Una prueba que ahorra tiempo pero pierde información importante, tampoco.
 
-El primer proyecto tiene que permitir una decisión informada sobre el siguiente.
+## Cierre
 
----
-
-<!-- CTA: enlazar el boton con la pagina o el formulario real de contacto de Virtual Cave. -->
-
-## ¿Qué tarea se repite demasiado en tu negocio?
-
-Quizá sea responder siempre a la misma pregunta, ordenar las solicitudes de la web o buscar información antes de poder ayudar a un cliente.
-
-En **Virtual Cave**, diseñamos soluciones de IA aplicadas, controladas y mantenibles. Podemos empezar por ahí: qué ocurre hoy, dónde se atasca el proceso y qué mejora se podría medir.
-
-**Botón: Cuéntanos tu reto de IA**
-
-*No necesitas llegar con una solución técnica. Basta con una tarea que te gustaría hacer de otra manera.*
+El primer proyecto tiene que permitir una decisión informada sobre el siguiente. Elige una tarea que se repita, mide el tiempo y la calidad, y decide con datos si el siguiente paso merece la pena.

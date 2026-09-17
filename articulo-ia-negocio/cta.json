@@ -1,0 +1,16 @@
+{
+  "href": {
+    "es": "/es/contact-us#contact-form",
+    "en": "/en/contact-us#contact-form"
+  },
+  "es": {
+    "title": "¿Qué tarea se repite demasiado en tu negocio?",
+    "description": "En Virtual Cave diseñamos soluciones de IA aplicadas, controladas y mantenibles. Podemos empezar por lo que ocurre hoy, dónde se atasca el proceso y qué mejora se podría medir.",
+    "label": "Cuéntanos tu reto de IA"
+  },
+  "en": {
+    "title": "Which task repeats too often in your business?",
+    "description": "At Virtual Cave we design applied AI that stays controlled and maintainable. We can start from what happens today, where the process stalls, and which improvement you could measure.",
+    "label": "Tell us your AI challenge"
+  }
+}

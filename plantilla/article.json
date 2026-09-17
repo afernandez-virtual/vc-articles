@@ -1,0 +1,40 @@
+{
+  "id": "slug-del-articulo",
+  "status": "draft",
+  "publishedAt": "2026-09-17",
+  "readingMinutes": 12,
+  "tags": ["software_engineering"],
+  "slugs": {
+    "es": "titulo-del-articulo-en-espanol",
+    "en": "article-title-in-english"
+  },
+  "title": {
+    "es": "Título en español",
+    "en": "Title in English"
+  },
+  "excerpt": {
+    "es": "Una o dos frases para la ficha del índice y para SEO. Qué problema trata el artículo y para quién.",
+    "en": "One or two sentences for the index card and SEO. What problem the article covers and who it is for."
+  },
+  "dek": {
+    "es": "Subtítulo bajo el H1. Una línea concreta: el ángulo, no un resumen del excerpt.",
+    "en": "Subtitle under the H1. One concrete line: the angle, not a restatement of the excerpt."
+  },
+  "author": {
+    "name": "Virtual Cave",
+    "role": {
+      "es": "Equipo de Ingeniería de Software",
+      "en": "Software Engineering Team"
+    },
+    "image": "/logo/vc-logo-white.svg"
+  },
+  "cover": {
+    "file": "cover/cover-editorial.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Descripción de la portada en español",
+      "en": "Cover description in English"
+    }
+  }
+}

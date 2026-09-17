@@ -1,0 +1,38 @@
+{
+  "agente-orquestador.webp": {
+    "file": "images/agente-orquestador.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Un agente orquestador distribuye tres tareas y reúne sus resultados para revisión",
+      "en": "An orchestrator agent distributes three tasks and gathers their results for review"
+    }
+  },
+  "criterio-y-ejecucion.webp": {
+    "file": "images/criterio-y-ejecucion.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Un módulo de planificación dirige tres módulos de ejecución y revisa sus resultados",
+      "en": "A planning module directs three execution modules and reviews their results"
+    }
+  },
+  "flujo-propuesta-comercial.webp": {
+    "file": "images/flujo-propuesta-comercial.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Un plan se divide en piezas, se ensambla como propuesta y recibe aprobación humana",
+      "en": "A plan is split into pieces, assembled as a proposal, and receives human approval"
+    }
+  },
+  "formacion-equipo.webp": {
+    "file": "images/formacion-equipo.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Un manual operativo alimenta un ciclo de práctica, revisión y mejora",
+      "en": "An operating playbook feeds a cycle of practice, review and improvement"
+    }
+  }
+}

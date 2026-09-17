@@ -1,0 +1,40 @@
+{
+  "id": "java-spring-ai-guidelines",
+  "status": "ready",
+  "publishedAt": "2026-09-03",
+  "readingMinutes": 45,
+  "tags": ["ia", "software_engineering"],
+  "slugs": {
+    "es": "guia-ia-criterio-tecnico-java-spring",
+    "en": "java-spring-ai-technical-guidelines"
+  },
+  "title": {
+    "es": "Guía sencilla para no perder criterio técnico usando IA en equipos Java/Spring Boot",
+    "en": "A practical guide to keeping technical judgment when using AI in Java/Spring Boot teams"
+  },
+  "excerpt": {
+    "es": "Cómo aprovechar la IA para ir más rápido sin pensar menos: arquitectura, tests, seguridad, microservicios y reglas de equipo.",
+    "en": "How to use AI to move faster without thinking less: architecture, tests, security, microservices and team rules."
+  },
+  "dek": {
+    "es": "Prompts, checklists y ejemplos sencillos para que el equipo siga siendo el piloto y la IA el copiloto.",
+    "en": "Prompts, checklists and simple examples so the team stays in the cockpit and AI remains the copilot."
+  },
+  "author": {
+    "name": "Virtual Cave",
+    "role": {
+      "es": "Equipo de Ingeniería de Software",
+      "en": "Software Engineering Team"
+    },
+    "image": "/logo/vc-logo-white.svg"
+  },
+  "cover": {
+    "file": "cover/cover-editorial.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": {
+      "es": "Brújula luminosa guiando rutas de decisión en un paisaje tecnológico",
+      "en": "Luminous compass guiding decision paths through a technical landscape"
+    }
+  }
+}
