@@ -309,12 +309,23 @@ Pero no siempre hace falta arrancar toda la aplicación.
 
 ### Guía sencilla
 
-| Tipo de test | Cuándo usarlo |
-|---|---|
-| `@Test` | Para lógica de negocio simple |
-| `@WebMvcTest` | Para probar controllers |
-| `@DataJpaTest` | Para probar repositorios |
-| `@SpringBootTest` | Para pruebas más completas de integración |
+![Tabla para elegir el tipo de test adecuado en Spring Boot](/images/tabla-tipos-test-es.webp "Guía sencilla para elegir el tipo de test")
+
+<details>
+<summary>Tabla en texto: tipo de test y cuándo usarlo</summary>
+
+<table>
+<thead>
+<tr><th>Tipo de test</th><th>Cuándo usarlo</th></tr>
+</thead>
+<tbody>
+<tr><td><code>@Test</code></td><td>Para lógica de negocio simple</td></tr>
+<tr><td><code>@WebMvcTest</code></td><td>Para probar controllers</td></tr>
+<tr><td><code>@DataJpaTest</code></td><td>Para probar repositorios</td></tr>
+<tr><td><code>@SpringBootTest</code></td><td>Para pruebas más completas de integración</td></tr>
+</tbody>
+</table>
+</details>
 
 ### Para equipos que quieran subir nivel
 

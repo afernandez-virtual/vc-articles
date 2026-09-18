@@ -1,1 +1,8 @@
-{}
+{
+  "tabla-tipos-test-es.webp": {
+    "file": "images/tabla-tipos-test-es.webp",
+    "width": 1600,
+    "height": 1000,
+    "alt": "Tabla «Elige el test adecuado». Columnas: Tipo de test y Cuándo usarlo. @Test: Para lógica de negocio simple. @WebMvcTest: Para probar controllers. @DataJpaTest: Para probar repositorios. @SpringBootTest: Para pruebas más completas de integración."
+  }
+}

@@ -3,18 +3,18 @@
     "file": "images/rag-fuentes-respuesta.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes",
-      "en": "A query selects relevant documentation and produces an answer tied to its sources"
-    }
+    "alt": "Una consulta selecciona fuentes y produce una respuesta conectada con ellas"
   },
   "consulta-a-tarea.webp": {
     "file": "images/consulta-a-tarea.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Una consulta pasa por aclaración y organización antes de la aprobación humana",
-      "en": "An enquiry is clarified and organised before human approval"
-    }
+    "alt": "Una consulta se aclara, se convierte en tareas y termina en aprobación humana"
+  },
+  "tabla-medicion-web-es.webp": {
+    "file": "images/tabla-medicion-web-es.webp",
+    "width": 1600,
+    "height": 1000,
+    "alt": "Tabla «Empieza por una mejora medible». Columnas: Qué observar y Qué comprobar. Tiempo del equipo: Minutos dedicados por caso, incluida la revisión y las correcciones. Calidad: Resultados correctos y completos en una muestra revisada por personas. Continuidad: Solicitudes que llegan al siguiente paso con la información necesaria. Coste total: Implantación, uso, mantenimiento y supervisión del sistema."
   }
 }

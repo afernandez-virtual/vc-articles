@@ -4,37 +4,19 @@
   "publishedAt": "2026-09-17",
   "readingMinutes": 7,
   "tags": ["ia"],
-  "slugs": {
-    "es": "el-senior-no-fotocopia-orquestacion-de-agentes",
-    "en": "a-senior-does-not-photocopy-agent-orchestration"
-  },
-  "title": {
-    "es": "El senior no fotocopia. Tus agentes de IA tampoco deberían",
-    "en": "A senior does not photocopy. Your AI agents should not either"
-  },
-  "excerpt": {
-    "es": "Poner el modelo más capaz a hacer cada tarea sale caro. La orquestación de agentes reparte el trabajo: un modelo con más capacidad planifica y revisa; modelos más eficientes ejecutan las partes repetitivas.",
-    "en": "Sending the most capable model to every task is expensive. Agent orchestration splits the work: a stronger model plans and reviews; more efficient models execute the repetitive parts."
-  },
-  "dek": {
-    "es": "Reserva el criterio para dirigir. Usa capacidad barata para ejecutar.",
-    "en": "Keep judgement for directing. Use cheaper capacity to execute."
-  },
+  "slug": "el-senior-no-fotocopia-orquestacion-de-agentes",
+  "title": "El senior no fotocopia. Tus agentes de IA tampoco deberían",
+  "excerpt": "Poner el modelo más capaz a hacer cada tarea sale caro. La orquestación de agentes reparte el trabajo: un modelo con más capacidad planifica y revisa; modelos más eficientes ejecutan las partes repetitivas.",
+  "dek": "Reserva el criterio para dirigir. Usa capacidad barata para ejecutar.",
   "author": {
     "name": "Virtual Cave",
-    "role": {
-      "es": "Equipo de Ingeniería de Software",
-      "en": "Software Engineering Team"
-    },
+    "role": "Equipo de Ingeniería de Software",
     "image": "/logo/vc-logo-white.svg"
   },
   "cover": {
     "file": "cover/cover-editorial.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Un sistema distribuye tareas entre módulos especializados y reúne el resultado para revisarlo",
-      "en": "A system distributes tasks across specialised modules and gathers the result for review"
-    }
+    "alt": "Un sistema distribuye tareas entre módulos especializados y reúne el resultado para revisarlo"
   }
 }

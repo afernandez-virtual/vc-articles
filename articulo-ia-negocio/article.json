@@ -4,37 +4,19 @@
   "publishedAt": "2026-09-17",
   "readingMinutes": 6,
   "tags": ["ia"],
-  "slugs": {
-    "es": "mas-alla-del-chatbot-ia-que-conecta-tu-web",
-    "en": "beyond-the-chatbot-ai-that-connects-your-website"
-  },
-  "title": {
-    "es": "Más allá del chatbot: IA que conecta tu web con el trabajo de cada día",
-    "en": "Beyond the chatbot: AI that connects your website to everyday work"
-  },
-  "excerpt": {
-    "es": "La IA encaja mejor si se empieza por una tarea que se repite. La web puede ayudar a quien pregunta, preparar mejor la información y dejar listo el siguiente paso del equipo.",
-    "en": "AI fits better when you start from a repeating task. The website can help the person asking, prepare the information, and leave the next step ready for the team."
-  },
-  "dek": {
-    "es": "Empieza por una consulta que se repite, no por un chatbot genérico.",
-    "en": "Start from a repeating enquiry, not from a generic chatbot."
-  },
+  "slug": "mas-alla-del-chatbot-ia-que-conecta-tu-web",
+  "title": "Más allá del chatbot: IA que conecta tu web con el trabajo de cada día",
+  "excerpt": "La IA encaja mejor si se empieza por una tarea que se repite. La web puede ayudar a quien pregunta, preparar mejor la información y dejar listo el siguiente paso del equipo.",
+  "dek": "Empieza por una consulta que se repite, no por un chatbot genérico.",
   "author": {
     "name": "Virtual Cave",
-    "role": {
-      "es": "Equipo de Ingeniería de Software",
-      "en": "Software Engineering Team"
-    },
+    "role": "Equipo de Ingeniería de Software",
     "image": "/logo/vc-logo-white.svg"
   },
   "cover": {
     "file": "cover/cover-editorial.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Una consulta web se conecta con documentación y termina en una tarea para el equipo",
-      "en": "A website enquiry connects to documentation and ends as a task for the team"
-    }
+    "alt": "Una consulta web se conecta con documentación y termina en una tarea para el equipo"
   }
 }

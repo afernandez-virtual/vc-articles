@@ -3,36 +3,30 @@
     "file": "images/agente-orquestador.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Un agente orquestador distribuye tres tareas y reúne sus resultados para revisión",
-      "en": "An orchestrator agent distributes three tasks and gathers their results for review"
-    }
+    "alt": "Un orquestador Astra reparte trabajo entre Luna, Composer y DeepSeek y reúne el resultado para revisión"
   },
   "criterio-y-ejecucion.webp": {
     "file": "images/criterio-y-ejecucion.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Un módulo de planificación dirige tres módulos de ejecución y revisa sus resultados",
-      "en": "A planning module directs three execution modules and reviews their results"
-    }
+    "alt": "Un módulo de criterio, con Fable, Astra o Grok, dirige piezas de ejecución: volumen, borrador, datos y entrega"
   },
   "flujo-propuesta-comercial.webp": {
     "file": "images/flujo-propuesta-comercial.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Un plan se divide en piezas, se ensambla como propuesta y recibe aprobación humana",
-      "en": "A plan is split into pieces, assembled as a proposal, and receives human approval"
-    }
+    "alt": "El material de partida se convierte en propuesta y termina en aprobación humana"
   },
   "formacion-equipo.webp": {
     "file": "images/formacion-equipo.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Un manual operativo alimenta un ciclo de práctica, revisión y mejora",
-      "en": "An operating playbook feeds a cycle of practice, review and improvement"
-    }
+    "alt": "Un manual operativo alimenta un ciclo de práctica, medición, revisión y mejora"
+  },
+  "tabla-coste-orquestacion-es.webp": {
+    "file": "images/tabla-coste-orquestacion-es.webp",
+    "width": 1600,
+    "height": 1000,
+    "alt": "Tabla «Mide el coste completo». Columnas: Qué observar y Qué comprobar. Uso del modelo caro: Qué porcentaje de tareas realmente pedía criterio, planificación o revisión. Retrabajo: Veces que una persona tiene que rehacer el resultado antes de poder usarlo. Tiempo del equipo: Minutos dedicados a dirigir la IA, no solo a copiar la respuesta. Coste total: Uso de los modelos, supervisión humana y formación para hacerlo bien."
   }
 }

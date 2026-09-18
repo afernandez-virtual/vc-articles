@@ -1,1 +1,50 @@
-{}
+{
+  "hexagonal-flow.webp": {
+    "file": "images/hexagonal-flow.webp",
+    "width": 1600,
+    "height": 1362,
+    "alt": "Flujo de arquitectura hexagonal desde una petición HTTP por los puertos y el dominio hasta un adaptador de infraestructura"
+  },
+  "ddd-flow.webp": {
+    "file": "images/ddd-flow.webp",
+    "width": 1600,
+    "height": 1210,
+    "alt": "Flujo DDD desde una petición HTTP por el controlador y el servicio de aplicación hasta el repositorio de dominio y la persistencia JPA"
+  },
+  "cqrs-flow.webp": {
+    "file": "images/cqrs-flow.webp",
+    "width": 1800,
+    "height": 1328,
+    "alt": "Flujo CQRS con cadenas separadas de comandos y consultas desde el transporte HTTP hasta los adaptadores de base de datos de escritura y lectura"
+  },
+  "hexagonal-layers.webp": {
+    "file": "images/hexagonal-layers.webp",
+    "width": 1800,
+    "height": 1350,
+    "alt": "Capas de arquitectura hexagonal que conectan adaptadores de entrada, servicios de aplicación, componentes de dominio y adaptadores de infraestructura"
+  },
+  "cqrs-components.webp": {
+    "file": "images/cqrs-components.webp",
+    "width": 1800,
+    "height": 1560,
+    "alt": "Componentes CQRS separados en lado de comandos, lado de consultas y sus bases de datos de escritura y lectura"
+  },
+  "architecture-decision.webp": {
+    "file": "images/architecture-decision.webp",
+    "width": 2480,
+    "height": 2280,
+    "alt": "Árbol de decisión arquitectónica desde la simplicidad del sistema por infraestructura, separación de lectura y escritura, complejidad del dominio y combinaciones híbridas"
+  },
+  "architecture-hybrid.webp": {
+    "file": "images/architecture-hybrid.webp",
+    "width": 1900,
+    "height": 1480,
+    "alt": "Arquitectura híbrida donde DDD modela el dominio, los puertos hexagonales exponen casos de uso, CQRS separa comandos y consultas y ambos usan la infraestructura"
+  },
+  "tabla-comparativa-arquitecturas.webp": {
+    "file": "images/tabla-comparativa-arquitecturas.webp",
+    "width": 2200,
+    "height": 1558,
+    "alt": "Tabla comparativa de las arquitecturas Hexagonal, CQRS, DDD e Hybrid"
+  }
+}

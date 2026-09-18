@@ -1,16 +1,5 @@
 {
-  "href": {
-    "es": "/es/contact-us#contact-form",
-    "en": "/en/contact-us#contact-form"
-  },
-  "es": {
-    "title": "¿Quién decide qué modelo usa tu equipo?",
-    "description": "En Virtual Cave diseñamos la orquestación y formamos a los equipos para usarla dentro de su trabajo real: qué delegar, qué modelo necesita cada tarea, cómo controlar el coste y dónde debe intervenir una persona.",
-    "label": "Habla con un experto en IA"
-  },
-  "en": {
-    "title": "Who decides which model your team uses?",
-    "description": "At Virtual Cave we design the orchestration and train teams to use it in their real work: what to delegate, which model each task needs, how to control cost, and where a person must step in.",
-    "label": "Talk to an AI expert"
-  }
+  "title": "¿Quién decide qué modelo usa tu equipo?",
+  "description": "En Virtual Cave diseñamos la orquestación y formamos a los equipos para usarla dentro de su trabajo real: qué delegar, qué modelo necesita cada tarea, cómo controlar el coste y dónde debe intervenir una persona.",
+  "label": "Habla con un experto en IA"
 }

@@ -3,18 +3,12 @@
     "file": "images/rag-tres-pasos.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Una pregunta activa la búsqueda en documentos seleccionados y produce una respuesta respaldada",
-      "en": "A question triggers a search in selected documents and produces a backed answer"
-    }
+    "alt": "Una pregunta busca en fuentes seleccionadas y produce una respuesta respaldada"
   },
   "accesos-publico-interno.webp": {
     "file": "images/accesos-publico-interno.webp",
     "width": 1600,
     "height": 900,
-    "alt": {
-      "es": "Dos espacios de conocimiento separados protegen la información pública y la documentación interna",
-      "en": "Two separate knowledge spaces protect public information and internal documentation"
-    }
+    "alt": "El conocimiento público y el interno quedan en espacios de acceso separados"
   }
 }

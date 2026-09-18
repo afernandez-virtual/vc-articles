@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: reusable background artwork for premium architecture diagrams
+Primary request: Create a refined editorial architectural illustration that can sit behind deterministic diagram labels and connectors. Show an abstract modular software architecture as stacked and interlocking planes, portals, beams, and translucent layers, with a sense of systems thinking and technical precision.
+Scene/backdrop: deep navy field with generous quiet areas and subtle paper-grain texture
+Subject: abstract modular architecture, no literal buildings, a few isometric planes and framed cavities suggesting layers, ports, flows, and read/write paths
+Style/medium: premium editorial vector-like 3D illustration, crisp geometry, restrained detail, suitable as a low-contrast background beneath overlaid SVG typography
+Composition/framing: horizontal 16:10 canvas, visual weight around the perimeter with calm central space for labels; no perspective that would make overlay text hard to read
+Lighting/mood: controlled studio light, understated depth, confident and analytical
+Color palette: navy #0A1633, magenta #C2185B, purple #6C1D75, muted blue, warm ivory accents; keep contrast moderate and avoid bright glow
+Materials/textures: satin planes, frosted translucent panels, fine grain, subtle registration marks
+Text (verbatim): ""
+Constraints: no words, no letters, no numbers, no arrows, no icons, no logos, no watermark; preserve clean negative space; this is a visual substrate for exact code-composed labels
+Avoid: generic flowchart, stock tech background, neon cyberpunk, UI screenshots, illegible pseudo-text

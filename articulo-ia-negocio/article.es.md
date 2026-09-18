@@ -74,7 +74,7 @@ Ese último paso no ocurriría por el simple hecho de añadir un modelo de IA: h
 
 El objetivo sería que la conversación dejase un siguiente paso claro para la persona y para el equipo.
 
-![Una consulta pasa por aclaración y organización antes de la aprobación humana](consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
+![Una consulta pasa por aclaración y organización antes de la aprobación humana](/images/consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
 
 ## Automatizar con criterio
 
@@ -94,12 +94,23 @@ La propuesta sería comparar el proceso actual con el nuevo utilizando casos rep
 
 Desde negocio, estas serían cuatro comprobaciones:
 
-| Qué observar | Qué comprobar |
-| --- | --- |
-| Tiempo del equipo | Minutos dedicados por caso, incluida la revisión y las correcciones. |
-| Calidad | Resultados correctos y completos en una muestra revisada por personas. |
-| Continuidad | Solicitudes que llegan al siguiente paso con la información necesaria. |
-| Coste total | Implantación, uso, mantenimiento y supervisión del sistema. |
+![Tabla con cuatro comprobaciones para medir una mejora de IA en la web](/images/tabla-medicion-web-es.webp "Cuatro comprobaciones para medir una mejora de IA en la web")
+
+<details>
+<summary>Tabla en texto: qué observar y qué comprobar</summary>
+
+<table>
+<thead>
+<tr><th>Qué observar</th><th>Qué comprobar</th></tr>
+</thead>
+<tbody>
+<tr><td>Tiempo del equipo</td><td>Minutos dedicados por caso, incluida la revisión y las correcciones.</td></tr>
+<tr><td>Calidad</td><td>Resultados correctos y completos en una muestra revisada por personas.</td></tr>
+<tr><td>Continuidad</td><td>Solicitudes que llegan al siguiente paso con la información necesaria.</td></tr>
+<tr><td>Coste total</td><td>Implantación, uso, mantenimiento y supervisión del sistema.</td></tr>
+</tbody>
+</table>
+</details>
 
 Una respuesta rápida que exige rehacer el trabajo no cumpliría el objetivo. Una prueba que ahorra tiempo pero pierde información importante, tampoco.
 

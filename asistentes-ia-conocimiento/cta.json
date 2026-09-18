@@ -1,16 +1,5 @@
 {
-  "href": {
-    "es": "/es/contact-us#contact-form",
-    "en": "/en/contact-us#contact-form"
-  },
-  "es": {
-    "title": "¿Qué pregunta responde tu equipo una y otra vez?",
-    "description": "Compártela con Virtual Cave, junto con el lugar donde guardáis hoy la respuesta. Diseñamos sistemas RAG y conexiones seguras con fuentes internas para que cada persona encuentre el conocimiento que le corresponde.",
-    "label": "Habla con un experto en IA"
-  },
-  "en": {
-    "title": "Which question does your team answer again and again?",
-    "description": "Share it with Virtual Cave, and where you keep the answer today. We design RAG systems and secure connections to internal sources so each person finds the knowledge they are allowed to see.",
-    "label": "Talk to an AI expert"
-  }
+  "title": "¿Qué pregunta responde tu equipo una y otra vez?",
+  "description": "Compártela con Virtual Cave, junto con el lugar donde guardáis hoy la respuesta. Diseñamos sistemas RAG y conexiones seguras con fuentes internas para que cada persona encuentre el conocimiento que le corresponde.",
+  "label": "Habla con un experto en IA"
 }

@@ -1,16 +1,5 @@
 {
-  "href": {
-    "es": "/es/contact-us#contact-form",
-    "en": "/en/contact-us#contact-form"
-  },
-  "es": {
-    "title": "¿La IA acelera al equipo o le quita criterio?",
-    "description": "Definimos reglas, prompts y controles para que Java y Spring Boot sigan siendo del equipo, no del modelo.",
-    "label": "Definamos las reglas de IA"
-  },
-  "en": {
-    "title": "Does AI make the team faster — or less deliberate?",
-    "description": "We set rules, prompts and checks so Java and Spring Boot stay with the team, not with the model.",
-    "label": "Let's set your AI rules"
-  }
+  "title": "¿La IA acelera al equipo o le quita criterio?",
+  "description": "Definimos reglas, prompts y controles para que Java y Spring Boot sigan siendo del equipo, no del modelo.",
+  "label": "Definamos las reglas de IA"
 }
