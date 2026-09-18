@@ -36,7 +36,7 @@ Por ejemplo, ante una pregunta sobre qué incluye un servicio, podríamos diseñ
 
 El objetivo sería que no improvisase condiciones que la empresa nunca ha definido.
 
-![Una pregunta activa la búsqueda en documentos seleccionados y produce una respuesta respaldada](/images/rag-tres-pasos.webp "RAG en tres pasos: preguntar, recuperar y responder")
+![Una pregunta activa la búsqueda en documentos seleccionados y produce una respuesta respaldada](images/rag-tres-pasos.webp "RAG en tres pasos: preguntar, recuperar y responder")
 
 Responder con documentación no es lo mismo que responder siempre bien. RAG puede reducir el riesgo de respuestas inventadas, pero no elimina los errores.
 
@@ -82,7 +82,7 @@ La documentación pública y la interna requieren controles de acceso distintos.
 
 Un punto de partida prudente para una versión pública es limitar las fuentes a contenido aprobado para la web.
 
-![Dos espacios de conocimiento separados protegen la información pública y la documentación interna](/images/accesos-publico-interno.webp "Accesos distintos para conocimiento público e interno")
+![Dos espacios de conocimiento separados protegen la información pública y la documentación interna](images/accesos-publico-interno.webp "Accesos distintos para conocimiento público e interno")
 
 ## Por dónde empezar sin intentar abarcarlo todo
 

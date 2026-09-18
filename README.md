@@ -25,7 +25,7 @@ Nombre de carpeta = `id` en `article.json`. Sin espacios, en minúsculas.
   cover/
     cover-editorial.webp  Portada 1600×900. Obligatoria
   images/
-    {nombre}.webp         Figuras del cuerpo. Nombre = clave en figures.json
+    {nombre}.webp         Figuras del cuerpo. Clave en figures.json = images/{nombre}.webp
 ```
 
 ## Orden de trabajo
@@ -34,7 +34,7 @@ Nombre de carpeta = `id` en `article.json`. Sin espacios, en minúsculas.
 2. Edita `article.json`: `id`, slugs, fechas, tags, títulos, excerpt, dek, alt de cover.
 3. Sustituye `cover/cover-editorial.webp`.
 4. Escribe `article.es.md` y `article.en.md`.
-5. Suelta figuras en `images/`, decláralas en `figures.json` y enlázalas en el markdown por **nombre de archivo**.
+5. Suelta figuras en `images/`, decláralas en `figures.json` y enlázalas en el markdown con la ruta relativa `images/{nombre}.webp`.
 6. Reescribe `cta.json` para ese artículo. No reutilices el texto de otro post.
 7. Pon `"status": "ready"` cuando ES y EN estén alineados y las imágenes existan.
 
@@ -45,10 +45,10 @@ Nombre de carpeta = `id` en `article.json`. Sin espacios, en minúsculas.
 - Imagen del cuerpo:
 
 ```md
-![Texto alternativo](figura-01.webp "Pie de foto opcional")
+![Texto alternativo](images/figura-01.webp "Pie de foto opcional")
 ```
 
-El `src` es solo el fichero (`figura-01.webp`), no `images/` ni una URL. Si el archivo no está en `figures.json`, la web no lo muestra.
+El `src` es la ruta relativa desde el markdown: `images/{nombre}.webp`. Esa misma cadena es la clave en `figures.json`. Así se ve en el editor y la web puede resolver el fichero. Sin barra inicial (`/images/...`) ni solo el nombre (`figura-01.webp`). Si la clave no está en `figures.json`, la web no lo muestra.
 
 - Tablas, listas, citas `>` y bloques de código sí. Mermaid no: exporta el diagrama a WebP o SVG y trátalo como figura.
 - Los dos idiomas deben tener las mismas secciones e imágenes. Cambia el texto, no la estructura.

@@ -37,7 +37,7 @@ El dominio no debería saber si la app usa REST, colas, JPA, MongoDB o Kafka. Pa
 
 ### Flujo visual
 
-![Flujo de arquitectura hexagonal desde una petición HTTP por los puertos y el dominio hasta un adaptador de infraestructura](/images/hexagonal-flow.webp)
+![Flujo de arquitectura hexagonal desde una petición HTTP por los puertos y el dominio hasta un adaptador de infraestructura](images/hexagonal-flow.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -107,7 +107,7 @@ En lugar de pensar primero en tablas o endpoints, se piensa en:
 
 ### Flujo visual
 
-![Flujo DDD desde una petición HTTP por el controlador y el servicio de aplicación hasta el repositorio de dominio y la persistencia JPA](/images/ddd-flow.webp)
+![Flujo DDD desde una petición HTTP por el controlador y el servicio de aplicación hasta el repositorio de dominio y la persistencia JPA](images/ddd-flow.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -173,7 +173,7 @@ La idea no es "poner dos carpetas diferentes", sino aceptar que leer y escribir 
 
 ### Flujo visual
 
-![Flujo CQRS con cadenas separadas de comandos y consultas desde el transporte HTTP hasta los adaptadores de base de datos de escritura y lectura](/images/cqrs-flow.webp)
+![Flujo CQRS con cadenas separadas de comandos y consultas desde el transporte HTTP hasta los adaptadores de base de datos de escritura y lectura](images/cqrs-flow.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -374,7 +374,7 @@ curl http://localhost:8084/api/queries/subscriptions
 
 ### Arquitectura Hexagonal - Componentes
 
-![Capas de arquitectura hexagonal que conectan adaptadores de entrada, servicios de aplicación, componentes de dominio y adaptadores de infraestructura](/images/hexagonal-layers.webp)
+![Capas de arquitectura hexagonal que conectan adaptadores de entrada, servicios de aplicación, componentes de dominio y adaptadores de infraestructura](images/hexagonal-layers.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -383,7 +383,7 @@ curl http://localhost:8084/api/queries/subscriptions
 
 ### Arquitectura CQRS - Componentes
 
-![Componentes CQRS separados en lado de comandos, lado de consultas y sus bases de datos de escritura y lectura](/images/cqrs-components.webp)
+![Componentes CQRS separados en lado de comandos, lado de consultas y sus bases de datos de escritura y lectura](images/cqrs-components.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -392,7 +392,7 @@ curl http://localhost:8084/api/queries/subscriptions
 
 ### Comparativa de Arquitecturas
 
-![Tabla comparativa de las arquitecturas Hexagonal, CQRS, DDD e Hybrid](/images/tabla-comparativa-arquitecturas.webp)
+![Tabla comparativa de las arquitecturas Hexagonal, CQRS, DDD e Hybrid](images/tabla-comparativa-arquitecturas.webp)
 
 <details>
 <summary>Tabla comparativa accesible</summary>
@@ -404,7 +404,7 @@ curl http://localhost:8084/api/queries/subscriptions
 
 ### Diagrama de Decisión
 
-![Árbol de decisión arquitectónica desde la simplicidad del sistema por infraestructura, separación de lectura y escritura, complejidad del dominio y combinaciones híbridas](/images/architecture-decision.webp)
+![Árbol de decisión arquitectónica desde la simplicidad del sistema por infraestructura, separación de lectura y escritura, complejidad del dominio y combinaciones híbridas](images/architecture-decision.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>
@@ -413,7 +413,7 @@ curl http://localhost:8084/api/queries/subscriptions
 
 ### Diagrama visual de la mezcla
 
-![Arquitectura híbrida donde DDD modela el dominio, los puertos hexagonales exponen casos de uso, CQRS separa comandos y consultas y ambos usan la infraestructura](/images/architecture-hybrid.webp)
+![Arquitectura híbrida donde DDD modela el dominio, los puertos hexagonales exponen casos de uso, CQRS separa comandos y consultas y ambos usan la infraestructura](images/architecture-hybrid.webp)
 
 <details>
 <summary>Datos accesibles del diagrama</summary>

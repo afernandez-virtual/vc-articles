@@ -717,7 +717,7 @@ function tableTranscript(table, locale) {
 }
 
 function imageMarkdown(file, alt, transcript) {
-  return `![${alt}](${file}.webp)\n\n${transcript}`;
+  return `![${alt}](images/${file}.webp)\n\n${transcript}`;
 }
 
 function replaceMarkdown(locale) {

@@ -12,7 +12,7 @@ Sustituye este párrafo. Una afirmación concreta vale más que un marco abstrac
 - Otro punto, con un nombre, un límite o un número si lo tienes.
 - Lo que descartáis y por qué.
 
-![Descripción de la figura 1](figura-01.webp "Pie de foto. Explica qué debe verse, no «diagrama».")
+![Descripción de la figura 1](images/figura-01.webp "Pie de foto. Explica qué debe verse, no «diagrama».")
 
 ### Cuándo sí y cuándo no
 

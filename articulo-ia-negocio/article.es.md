@@ -42,7 +42,7 @@ Eso no elimina los errores: las fuentes pueden estar desactualizadas, la búsque
 
 A veces, la mejor respuesta será pedir una aclaración o dar paso a una persona.
 
-![Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes](rag-fuentes-respuesta.webp "RAG: responder con las fuentes abiertas")
+![Una consulta selecciona documentación relevante y produce una respuesta conectada con sus fuentes](images/rag-fuentes-respuesta.webp "RAG: responder con las fuentes abiertas")
 
 ### Flujos y agentes: pasar de responder a realizar tareas
 
@@ -74,7 +74,7 @@ Ese último paso no ocurriría por el simple hecho de añadir un modelo de IA: h
 
 El objetivo sería que la conversación dejase un siguiente paso claro para la persona y para el equipo.
 
-![Una consulta pasa por aclaración y organización antes de la aprobación humana](/images/consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
+![Una consulta pasa por aclaración y organización antes de la aprobación humana](images/consulta-a-tarea.webp "De la consulta a una tarea preparada y revisada")
 
 ## Automatizar con criterio
 
@@ -94,7 +94,7 @@ La propuesta sería comparar el proceso actual con el nuevo utilizando casos rep
 
 Desde negocio, estas serían cuatro comprobaciones:
 
-![Tabla con cuatro comprobaciones para medir una mejora de IA en la web](/images/tabla-medicion-web-es.webp "Cuatro comprobaciones para medir una mejora de IA en la web")
+![Tabla con cuatro comprobaciones para medir una mejora de IA en la web](images/tabla-medicion-web-es.webp "Cuatro comprobaciones para medir una mejora de IA en la web")
 
 <details>
 <summary>Tabla en texto: qué observar y qué comprobar</summary>

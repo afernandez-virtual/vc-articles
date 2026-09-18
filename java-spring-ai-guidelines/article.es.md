@@ -309,7 +309,7 @@ Pero no siempre hace falta arrancar toda la aplicación.
 
 ### Guía sencilla
 
-![Tabla para elegir el tipo de test adecuado en Spring Boot](/images/tabla-tipos-test-es.webp "Guía sencilla para elegir el tipo de test")
+![Tabla para elegir el tipo de test adecuado en Spring Boot](images/tabla-tipos-test-es.webp "Guía sencilla para elegir el tipo de test")
 
 <details>
 <summary>Tabla en texto: tipo de test y cuándo usarlo</summary>

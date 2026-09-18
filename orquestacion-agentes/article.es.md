@@ -26,7 +26,7 @@ Ahí entra la **orquestación**: un agente principal reparte el trabajo, espera 
 
 Es el equivalente a un responsable de equipo. No escribe cada párrafo. Decide quién hace qué, con qué margen y cuándo el resultado está listo para salir.
 
-![Un agente orquestador distribuye tres tareas y reúne sus resultados para revisión](/images/agente-orquestador.webp "Un orquestador coordina tareas, resultados y revisión")
+![Un agente orquestador distribuye tres tareas y reúne sus resultados para revisión](images/agente-orquestador.webp "Un orquestador coordina tareas, resultados y revisión")
 
 Ese diseño no se improvisa abriendo un chat. Hay que definir qué puede hacer cada agente, qué herramientas tiene permitidas y en qué punto interviene una persona.
 
@@ -65,7 +65,7 @@ Encajan mejor en:
 
 Un junior bien dirigido ahorra tiempo. Un junior sin encargo claro multiplica correcciones. Con los modelos más baratos ocurre exactamente eso. Para ese volumen, un equipo puede asignar [GPT-5.6 Luna](https://developers.openai.com/api/docs/models/gpt-5.6-luna), [Composer 2.5](https://prod.cursor.com/docs/models/cursor-composer-2-5) o [DeepSeek](https://www.deepseek.com/en/news/deepseek-v4-1-flash/) a piezas concretas: resumir, ordenar, extraer. Cada uno con una salida y unas herramientas limitadas.
 
-![Un módulo de planificación dirige tres módulos de ejecución y revisa sus resultados](/images/criterio-y-ejecucion.webp "Criterio para dirigir; capacidad para ejecutar")
+![Un módulo de planificación dirige tres módulos de ejecución y revisa sus resultados](images/criterio-y-ejecucion.webp "Criterio para dirigir; capacidad para ejecutar")
 
 La analogía no es un ranking de inteligencia. Es una regla de asignación: **reserva la mayor capacidad para planificar y revisar; usa modelos eficientes para ejecutar tareas acotadas bajo supervisión**.
 
@@ -93,7 +93,7 @@ El ahorro aparece en las horas del modelo caro y en las horas de la persona. El 
 
 Ese reparto parece simple descrito en cuatro pasos. En el trabajo real, la dificultad está en otra parte: saber qué tarea merece un senior, qué instrucción necesita un junior para no desviar el resultado, y cuándo hay que parar la automatización. Ahí es donde un equipo sin criterio acaba usando siempre el mismo modelo, o acabando cada encargo a mano.
 
-![Un plan se divide en piezas, se ensambla como propuesta y recibe aprobación humana](/images/flujo-propuesta-comercial.webp "Una propuesta comercial orquestada de principio a fin")
+![Un plan se divide en piezas, se ensambla como propuesta y recibe aprobación humana](images/flujo-propuesta-comercial.webp "Una propuesta comercial orquestada de principio a fin")
 
 ## Lo que cuesta usar mal la IA
 
@@ -109,7 +109,7 @@ Tres patrones se ven a menudo:
 
 Desde negocio, estas serían cuatro comprobaciones:
 
-![Tabla con cuatro comprobaciones para medir el coste completo de la IA](/images/tabla-coste-orquestacion-es.webp "Cuatro comprobaciones para medir el coste completo")
+![Tabla con cuatro comprobaciones para medir el coste completo de la IA](images/tabla-coste-orquestacion-es.webp "Cuatro comprobaciones para medir el coste completo")
 
 <details>
 <summary>Tabla en texto: qué observar y qué comprobar</summary>
@@ -146,7 +146,7 @@ Eso no se resuelve con un manual genérico ni con una lista de modelos. Se resue
 
 No hace falta empezar por un sistema complejo. Hace falta que alguien del equipo sepa dirigir el trabajo, igual que se dirige a personas.
 
-![Un manual operativo alimenta un ciclo de práctica, revisión y mejora](/images/formacion-equipo.webp "Formación aplicada al flujo real del equipo")
+![Un manual operativo alimenta un ciclo de práctica, revisión y mejora](images/formacion-equipo.webp "Formación aplicada al flujo real del equipo")
 
 ## Cierre
 

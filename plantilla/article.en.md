@@ -12,7 +12,7 @@ Replace this paragraph. A concrete claim is worth more than an abstract frame.
 - Another point, with a name, a limit or a number if you have one.
 - What you reject and why.
 
-![Figure 1 description](figura-01.webp "Caption. Say what to look at, not “diagram”.")
+![Figure 1 description](images/figura-01.webp "Caption. Say what to look at, not “diagram”.")
 
 ### When it fits and when it does not
 

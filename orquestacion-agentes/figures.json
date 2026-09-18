@@ -1,29 +1,29 @@
 {
-  "agente-orquestador.webp": {
+  "images/agente-orquestador.webp": {
     "file": "images/agente-orquestador.webp",
     "width": 1600,
     "height": 900,
     "alt": "Un orquestador Astra reparte trabajo entre Luna, Composer y DeepSeek y reúne el resultado para revisión"
   },
-  "criterio-y-ejecucion.webp": {
+  "images/criterio-y-ejecucion.webp": {
     "file": "images/criterio-y-ejecucion.webp",
     "width": 1600,
     "height": 900,
     "alt": "Un módulo de criterio, con Fable, Astra o Grok, dirige piezas de ejecución: volumen, borrador, datos y entrega"
   },
-  "flujo-propuesta-comercial.webp": {
+  "images/flujo-propuesta-comercial.webp": {
     "file": "images/flujo-propuesta-comercial.webp",
     "width": 1600,
     "height": 900,
     "alt": "El material de partida se convierte en propuesta y termina en aprobación humana"
   },
-  "formacion-equipo.webp": {
+  "images/formacion-equipo.webp": {
     "file": "images/formacion-equipo.webp",
     "width": 1600,
     "height": 900,
     "alt": "Un manual operativo alimenta un ciclo de práctica, medición, revisión y mejora"
   },
-  "tabla-coste-orquestacion-es.webp": {
+  "images/tabla-coste-orquestacion-es.webp": {
     "file": "images/tabla-coste-orquestacion-es.webp",
     "width": 1600,
     "height": 1000,
