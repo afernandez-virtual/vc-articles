@@ -18,6 +18,8 @@ Sustituye este párrafo. Una afirmación concreta vale más que un marco abstrac
 
 Usa esta subsección si el artículo recomienda un enfoque. Si no aplica, bórrala.
 
+Si la tabla es una figura de marca, enlázala con `images/{nombre}.webp` y deja el contenido en `<details>`. Si no hace falta ilustrarla, una tabla Markdown basta:
+
 | Caso | Encaja | No encaja |
 | --- | --- | --- |
 | Situación A | Motivo breve | Motivo breve |
